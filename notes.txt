@@ -13,3 +13,4 @@ git config --global alias.ls "log --oneline --decorate --graph"
 
 github to push
 I will check out how to squash and merge in github.
+I will log down every steps over there for this purpose.
