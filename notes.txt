@@ -8,4 +8,7 @@ git reflog HEAD@{30.hours.ago}
 git diff HEAD@{1.min.ago} HEAD@{1.month.ago}
 git reflog expire --expire-unreachable=now --all
 git gc --prune=now
-git log --pretty=oneline 
+git log --pretty=oneline
+git config --global alias.ls "log --oneline --decorate --graph"
+
+github to push
