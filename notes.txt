@@ -35,6 +35,8 @@ git checkout -- fileNamelist
 
 /* modify 1 */
 
+/* modify 2 */
+
 github to push
 I will check out how to squash and merge in github.
 I will log down every steps over there for this purpose.
