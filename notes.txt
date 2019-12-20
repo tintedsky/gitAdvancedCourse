@@ -11,6 +11,32 @@ git gc --prune=now
 git log --pretty=oneline
 git config --global alias.ls "log --oneline --decorate --graph"
 
+
+/*unstage all files in staged area*/
+git reset head
+git reset      
+
+/*unstage one file in staged area*/
+git reset filename
+
+/*reset to a specific commit with contents kept*/
+git reset commitID
+git reset --soft commitID
+
+git clean -fd 
+git clean -id   i -- interactive
+
+git revert commitid (the example is the latest commit ID)
+
+/*undo all modification to the start */
+git checkout -- .
+or
+git checkout -- fileNamelist
+
+
+
 github to push
 I will check out how to squash and merge in github.
 I will log down every steps over there for this purpose.
+git fetch origin --prune
+
